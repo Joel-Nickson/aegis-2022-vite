@@ -10,9 +10,14 @@ function App() {
   return (
     <>
       <Nav />
-      <About />
+      <div id='about'>
+        <About />
+      </div>
+
       <Events />
-      <Footer />
+      <div id='footer'>
+        <Footer />
+      </div>
     </>
   )
 }

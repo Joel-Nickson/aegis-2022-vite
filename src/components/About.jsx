@@ -8,7 +8,6 @@ export default function About() {
                 <div className='flex justify-center align-middle'>
                     <img className='about-img w-full md:w-[50%] aspect-auto my-auto' src={aegis} alt="about" width='50%' height='50%' />
                 </div>
-                {/* <div className='about-img-div'> Comming Soon </div> */}
                 <div className='flex justify-center align-middle'>
                     <div className='w-[90%] md:w-[70%] grid gap-4'>
 

@@ -12,14 +12,14 @@ export default function Nav() {
                         <span></span>
                     </button>
                     <a href="#">
-                        <h4>Mech<span>Fisat</span></h4>
+                        <h4>Aegis<span>2022</span></h4>
                     </a>
                 </div>
 
                 <div className="navbar-menu" id="open-navbar1">
                     <ul className="navbar-nav">
 
-                        <li><a href="#">About</a></li>
+                        <li><a href="#about">About</a></li>
                         <li className="dropdown">
                             <label className="dropdown">
 
@@ -30,24 +30,24 @@ export default function Nav() {
                                 <input type="checkbox" className="dd-input" id="test" />
 
                                 <ul className="dd-menu">
-                                    <li><a href="#">Red Line</a></li>
+                                    <li><a href="#redline">Red Line</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">Srishti: The Contraption</a></li>
+                                    <li><a href="#srishti">Srishti: The Contraption</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">Sample Return Mission</a></li>
+                                    <li><a href="#srm">Sample Return Mission</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">Imago</a></li>
+                                    <li><a href="#imago">Imago</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">Ventura</a></li>
+                                    <li><a href="#ventura">Ventura</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">Tech Talk</a></li>
+                                    <li><a href="#techtalk">Tech Talk</a></li>
                                     <li className="divider"></li>
-                                    <li><a href="#">Panel Discussion</a></li>
+                                    <li><a href="#pd">Panel Discussion</a></li>
                                 </ul>
 
                             </label>
                         </li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#footer">Contact</a></li>
                     </ul>
                 </div >
             </div >

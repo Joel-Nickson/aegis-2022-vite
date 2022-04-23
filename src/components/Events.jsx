@@ -11,7 +11,7 @@ export function Event(props) {
         <div className="my-4 mt-10">
             <div className='grid grid-col-1 my-auto h-[90vh] md:h-auto '>
                 <h3 className="font-bold text-3xl text-center">{props.name}</h3>
-                <div className='flex justify-center align-middle my-8'>
+                <div className='flex justify-center align-middle mt-4 mb-8'>
                     <img className='about-img w-[90%] md:w-[30%] aspect-auto my-auto' src={props.img_src} alt={props.name} width='50%' height='50%' />
                 </div>
                 <div className='flex justify-center align-middle'>

@@ -13,11 +13,11 @@ export default function Footer() {
                                     <div className="Venue m-2">
                                         <h3 className="text-lg font-normal underline underline-offset-4 pb-2">Mobile</h3>
                                         <p className="max-w-xs mx-auto text-xs">
-                                            Govind : <a href="tel:+91751-066-1984">+91 75106 61984</a>
+                                            Akash : <a href="tel:+91751-066-1984">+91 75106 61984</a>
                                         </p>
-                                        {/* <p className="max-w-xs mx-auto text-xs">
-                                            num2 : +91 000000000
-                                        </p> */}
+                                        <p className="max-w-xs mx-auto text-xs">
+                                            Govind : <a href="tel:+91799-466-4350">+91 79946 64350</a>
+                                        </p>
                                     </div>
                                 </div>
                                 <div className="flex flex-col md:flex-row flex-wrap mx-auto">

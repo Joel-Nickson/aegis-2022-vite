@@ -1,10 +1,9 @@
 import { useState } from 'react'
 // import logo from './logo.svg'
-import './App.css'
 import Nav from './components/Nav'
 import About from './components/About'
 import Events from './components/Events'
-import Footer from './components/Footer'
+import Footer from './components/footer'
 
 function App() {
 
@@ -12,8 +11,8 @@ function App() {
     <>
       <Nav />
       <About />
-      {/* <Events /> */}
-      {/* <Footer /> */}
+      <Events />
+      <Footer />
     </>
   )
 }

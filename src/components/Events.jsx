@@ -1,6 +1,26 @@
+
+export function Event(props) {
+    return (
+        <div className="my-4 mt-10">
+            <div className='grid grid-col-1 my-auto h-[90vh] md:h-auto '>
+                <h3 className="font-bold text-3xl text-center">{props.name}</h3>
+                <div className='flex justify-center align-middle my-8'>
+                    <img className='about-img w-[90%] md:w-[30%] aspect-auto my-auto' src={props.img_src} alt={props.name} width='50%' height='50%' />
+                </div>
+                <div className='flex justify-center align-middle'>
+                    <div className='w-[90%] md:w-[60%] grid gap-4'>
+                        {props.content}
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
 export default function Events() {
     return (
-        <>
+        <div className="grid mt-16">
+            <h2 className="font-bold text-5xl text-center">Events</h2>
             <Event
                 name="Red Line"
                 content="The REDLINE brings out the opportunity for students to obtain an
@@ -11,7 +31,7 @@ export default function Events() {
                 (@copter_boy who is a professional RC motor show host and racer.
                 This is the key event and will be the star attraction for AEGIS 2.0.
                 "
-                img=""
+                img_src="/src/assets/redline.png"
             />
             <Event
                 name="Srihti: The Contraption"
@@ -24,7 +44,7 @@ export default function Events() {
                 without any discontinuation. The goal of the program is to
                 encourage students from diverse backgrounds to consider careers in
                 engineering and technology."
-                img=""
+                img_src="/src/assets/srishti.png"
             />
             <Event
                 name="Sample Return Mission"
@@ -40,7 +60,7 @@ export default function Events() {
                 impossible to carry in a space mission. This competition brings you an
                 opportunity to become a mission director of ISRO and propose a sample
                 return mission from any viable celestial body."
-                img=""
+                img_src="/src/assets/srm.png"
             />
             <Event
                 name="Imago"
@@ -54,7 +74,7 @@ export default function Events() {
                 The camp includes basic familiarisation of photography with an
                 outdoor shoot @Athirappilly. Camp would be conducted by Mr Sujith,
                 An environmentalist and well known wildlife photographer."
-                img=""
+                img_src="/src/assets/imago.png"
             />
             <Event
                 name="Ventura"
@@ -68,7 +88,7 @@ export default function Events() {
                 IEDC FISAT. The themes for the idea pitch are agriculture Healthcare
                 Automotive. The prize pool will be 8000. A team must include a minimum of 4
                 members and there will be a presentation for each team."
-                img=""
+                img_src="/src/assets/ventura.png"
             />
             <Event
                 name="Tech Talk"
@@ -84,7 +104,7 @@ export default function Events() {
                 and worked as an Engineer at London Middle East. He was awarded
                 Mukundan C. Meno
                 "
-                img=""
+                img_src="/src/assets/techtalk.png"
             />
             <Event
                 name="Panel Discussion"
@@ -98,20 +118,9 @@ export default function Events() {
                 setups. To make trading a source of regular income or passive
                 income and we can have conversations with some of the best
                 traders out there. Come and join us to feel the magic of trading."
-                img=""
+                img_src="/src/assets/pd.png"
             />
 
-        </>
-    )
-}
-
-export function Event(props) {
-    return (
-        <>
-            <div>
-                <div> <img src="" alt="" /> </div>
-                <div></div>
-            </div>
-        </>
+        </div>
     )
 }

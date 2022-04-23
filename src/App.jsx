@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Nav from './components/Nav'
 import About from './components/About'
 import Events from './components/Events'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 
 function App() {
 

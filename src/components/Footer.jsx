@@ -1,33 +1,38 @@
 export default function Footer() {
     return (
         <>
-            <div className="">
-                <footer className="text-center ml-0 md:ml-36">
-                    <div className="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
+            <div className="mt-10 bg-[#edf2f7]">
+                <footer className="text-center">
+                    <div className="max-w-screen-xl px-4 py-8 mx-auto">
                         <div className="max-w-3xl mx-auto space-y-6">
                             {/* <h2 className="text-3xl font-semibold leading-9 tracking-tight text-brochwhite sm:text-4xl sm:leading-10">Contact</h2> */}
-                            {/* <div className="social-media">
-                                <div className="flex justify-center space-x-6">
-                                    <a href="" target="blank" rel="noreferrer" aria-label="Twitter" className="text-blue-500">
-                                        <Twitter_svg />
-                                    </a>
 
-                                    <a href="" target="blank" rel="noreferrer" aria-label="Linkedin" className="text-gray-900">
-                                        <Linkedin_svg />
-                                    </a>
-                                    <a href="https://www.instagram.com/icefossfisat/" target="blank" rel="noreferrer" aria-label="Instagram" className="text-pink-500 md:mt-0 mt-2">
-                                        <Instagram_svg />
-                                    </a>
-                                    <a href="https://www.facebook.com/icefossfisat/" target="blank" rel="noreferrer" aria-label="Facebook" className="text-blue-500 sm:mt-0 mt-2">
-                                        <Facebook_svg />
-                                    </a>
+                            <div className="mt-4 flex flex-col flex-grow flex-wrap sm:gap-x-8 justify-evenly">
+
+                                <div className="flex flex-col md:flex-row flex-wrap mx-auto">
+                                    <div className="Venue m-2">
+                                        <h3 className="text-lg font-normal underline underline-offset-4 pb-2">Mobile</h3>
+                                        <p className="max-w-xs mx-auto text-xs">
+                                            Govind : <a href="tel:+91751-066-1984">+91 75106 61984</a>
+                                        </p>
+                                        {/* <p className="max-w-xs mx-auto text-xs">
+                                            num2 : +91 000000000
+                                        </p> */}
+                                    </div>
                                 </div>
-                            </div> */}
+                                <div className="flex flex-col md:flex-row flex-wrap mx-auto">
+                                    <div className="Venue m-2">
+                                        <h3 className="text-lg font-normal underline underline-offset-4 pb-2">Venue</h3>
+                                        <p className="max-w-xs mx-auto text-xs ">
+                                            Federal Institute of Science And Technology - Hormis Nagar, Mookkannoor, Angamaly, Kerala 683577
+                                        </p>
+                                    </div>
+                                </div>
 
-                            {/* <div className="text-xs text-center font-medium mx-auto w-full font-mono"> Created & designed by <a href="https://www.linkedin.com/in/amarjith-raj-b2822a196">  Amarjith Raj</a>, <a href="https://www.linkedin.com/in/amankshihab/"> Aman K Shihab</a>,
+                            </div>
+
+                            {/* <div className="text-xs text-center font-medium mx-auto w-full font-mono"> Created & designed by
                                 <a href="https://www.linkedin.com/in/joel-nickson-0a27721a5/"> Joel Nickson</a>,
-                                <a href="https://www.linkedin.com/in/naveen-b-jacob-229a81182/"> Naveen B Jacob </a> and
-                                <a href="https://www.linkedin.com/in/paul-elias-sojan/"> Paul Elias Sojan</a>
                             </div> */}
                             <p className="text-xs text-center font-medium mx-auto"><span className=" font-serif">&copy;</span> 2022 Mechfisat</p>
                         </div>

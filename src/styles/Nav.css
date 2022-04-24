@@ -119,7 +119,7 @@ a {
 
 .navbar .navbar-header>a {
     font-weight: 500;
-    color: #3c4250;
+    color: #000;
 }
 
 .navbar .navbar-menu {
@@ -222,7 +222,7 @@ a {
 }
 
 .navbar .navbar-header>a span {
-    color: #66f;
+    color: #f99a28;
 }
 
 .navbar .navbar-header h4 {

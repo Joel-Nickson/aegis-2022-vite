@@ -12,7 +12,7 @@ export default function Nav() {
                         <span></span>
                     </button>
                     <a href="#">
-                        <h4>AEGIS<span> 2.0</span></h4>
+                        <h4>MECH<span>FISAT</span></h4>
                     </a>
                 </div>
 

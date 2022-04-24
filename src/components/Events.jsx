@@ -8,7 +8,7 @@ import techtalk from "/src/assets/techtalk.png";
 import pd from "/src/assets/pd.png";
 export function Event(props) {
     return (
-        <div className="my-4 mt-10">
+        <div className="py-4 pt-10">
             <div className='grid grid-col-1 my-auto h-[90vh] md:h-auto '>
                 <h3 className="font-bold text-3xl text-center">{props.name}</h3>
                 <div className='flex justify-center align-middle mt-4 mb-8'>
@@ -26,7 +26,7 @@ export function Event(props) {
 
 export default function Events() {
     return (
-        <div className="grid mt-16">
+        <div className="grid pt-16">
             <h2 className="font-bold text-5xl text-center">Events</h2>
             <div id="redline">
                 <Event

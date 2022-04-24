@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
-
 body {
     font-family: "Roboto", sans-serif;
     font-size: 0.925rem;
 }
 
+a:hover{
+    background-color: #edf2f7;
+    color: #fff;
+}
 #about  a {
     text-decoration: none;
     background-color: #edf2f7;
@@ -169,7 +169,7 @@ body {
 }
 
 .navbar .navbar-menu .navbar-nav>li>a:hover {
-    color: #66f;
+    font-style:bold;
 }
 
 @media (max-width: 768px) {

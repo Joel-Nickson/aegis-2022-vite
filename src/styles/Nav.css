@@ -7,8 +7,15 @@ body {
     font-size: 0.925rem;
 }
 
-a {
+#about  a {
     text-decoration: none;
+    background-color: #edf2f7;
+    padding-inline: 3px;
+    border-radius: 5px;
+}
+#about  a:hover{
+    background-color: #272732;
+    color: #fff;
 }
 
 .container {

@@ -12,7 +12,7 @@ export default function About() {
                     <div className='w-[90%] md:w-[70%] grid gap-4'>
 
                         <p>Aegis 2.0 is a national wide technical fest for mechanical engineering students all
-                            over india conducted by students of fisat. The event consists of different types of
+                            over india conducted by students of <a href="https://fisat.ac.in/">FISAT</a>. The event consists of different types of
                             technical events and workshops. The main purpose of this fest is to bring students
                             from different colleges in india to participate in events and make learning fun and
                             better.</p>
